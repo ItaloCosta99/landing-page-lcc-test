@@ -1,4 +1,5 @@
 import Cards from './components/Cards';
+import Form from './components/Form';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <Home />
       <Cards />
-      <h1>Hello World</h1>
+      <Form />
     </div>
   );
 }
