@@ -5,7 +5,7 @@ import MobileNavigation from './MobileNavigation';
 export default function Navbar() {
   return (
     <nav className="nav-container">
-      <h1>Logo</h1>
+      <h1>Resenhei</h1>
       <Navigation />
       <MobileNavigation />
     </nav>
