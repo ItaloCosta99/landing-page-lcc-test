@@ -1,0 +1,59 @@
+.hero {
+  display: flex;
+  align-items: flex-end;
+  width: 100vw;
+  height: 90vh;
+  background: url("../../assets/img/bg-ebook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  max-width: 450px;
+  height: 30vh;
+  max-height: 150px;
+  z-index: 1;
+  border-top-right-radius: 8px;
+
+  background: #fff;
+}
+
+.hero a {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary-color);
+
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero a {
+    font-size: 1.5rem;
+  }
+}
+
+.hero a:hover {
+  filter: brightness(1.2);
+}
+
+.hero :nth-child(2) {
+  animation: slide infinite 2s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
