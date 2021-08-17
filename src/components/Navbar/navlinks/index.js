@@ -5,10 +5,10 @@ export default function NavLinks(props) {
         <a href="#home">Home</a>
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="#about">About Us</a>
+        <a href="#about">Sobre nós</a>
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <a href="/">Contact</a>
+        <a href="#contact">Contato</a>
       </li>
     </ul>
   );

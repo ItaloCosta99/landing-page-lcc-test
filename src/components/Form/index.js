@@ -1,7 +1,7 @@
 import './style.css'
 export default function Form() {
   return (
-    <form className="form" action="" method="POST" enctype="text/plain">
+    <form id="contact" className="form" action="" method="POST" enctype="text/plain">
       <h1>Contact Us</h1>
       <div className="wrapper">
         <div className="field">
