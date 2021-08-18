@@ -1,5 +1,5 @@
 import './style.css';
-import { FaArrowCircleRight } from 'react-icons/fa';
+import { FaArrowCircleLeft } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       </div>
       <div className="download">
         <a href="/">Download</a>
-        <FaArrowCircleRight color="#00fa43" size="30" />
+        <FaArrowCircleLeft color="#00fa43" size="30" />
       </div>
     </div>
   );
