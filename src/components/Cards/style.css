@@ -24,12 +24,9 @@
   transition: all 0.5s ease-out;
 }
 
-.container ul li h2 {
-  font-size: 1rem;
-}
-
 .container ul li p {
-  display: none;
+  transition: all 0.5s ease-out;
+  opacity: 0;
 }
 
 .container ul li {
@@ -38,14 +35,11 @@
 
 .container ul li:hover {
   transform: scale(1.1);
+  background: #ECECEC;
 }
 
 .container ul li:hover p {
-  display: block;
-}
-
-.container ul li:hover h2 {
-  display: none;
+  opacity: 1;
 }
 
 .container ul li h1 {
