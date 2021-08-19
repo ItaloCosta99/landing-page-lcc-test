@@ -55,6 +55,12 @@
   width: 100%;
   margin-left: 12px;
   resize: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form .wrapper .field input:focus, .form .wrapper .field textarea:focus {
+  box-shadow: 5px 5px 1px 1px rgba(102, 99, 97, 0.8);
 }
 
 .form .wrapper .buttons {
@@ -69,7 +75,8 @@
 }
 
 .form .wrapper .buttons input:hover {
-  transform: scale(1.1);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 1px 1px rgba(102, 99, 97, 0.8);
   background: var(--highlight-color);
 }
 
